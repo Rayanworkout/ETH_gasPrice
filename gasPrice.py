@@ -5,7 +5,7 @@ import time
 import tweepy
 
 
-# LAUNCH FUNCTION, TO KNOW BOT IS PROPERLY RUNNING
+# LAUNCH FUNCTION, TO CHECK IF BOT IS PROPERLY RUNNING
 
 def launch():
     requests.get(https://api.telegram.org/bot:MY_BOT_TOKEN/sendMessage?chat_id=MY_CHAT_ID&text={}"
