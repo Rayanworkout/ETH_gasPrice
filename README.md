@@ -14,3 +14,5 @@ TO USE IT ON YOUR OWN:
   ETHERSCAN_API_KEY variable
 
 - You're good to go !
+
+Need help? Twitter @0xRayan_
