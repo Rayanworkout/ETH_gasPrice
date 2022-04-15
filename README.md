@@ -2,7 +2,7 @@
 
 A bot that sends alerts on *Twitter / Telegram* when Ethereum gasPrice reaches a certain limit. You can use it for free.
 
-## HOW TO: 
+## HOW TO
 
 * Create a *Telegram Bot* (https://core.telegram.org/bots)
 
