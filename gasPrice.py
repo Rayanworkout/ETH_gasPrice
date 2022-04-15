@@ -18,13 +18,14 @@ notify = Notify()
 
 def time_delta(now):
     """Function to check how much time
-    passed since last alert"""
+    has passed since last alert"""
     
     return int((time.time() - now) // 60)
 
 
 def telegram_message(chat_id, message):
-    """Function to send a message on telegram"""
+    """Function to easily send a message on telegram"""
+    
     requests.get("https://api.telegram.org/MY_BOT_TOKEN/sendMessage?chat_id={}&text={}".format(chat_id, message))
 
 
@@ -92,6 +93,7 @@ def getGas():
             notify.tg_timestamp = time.time()
 
     except Exception as err:
+        # Getting exception sent on telegram
         telegram_message("YOUR_TELEGRAM_CHAT_ID", err)
         time.sleep(30)
         pass
