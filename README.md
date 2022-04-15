@@ -6,7 +6,7 @@ A bot that sends alerts on *Twitter / Telegram* when Ethereum gasPrice reaches a
 
 * Create a *Telegram Bot* -> https://core.telegram.org/bots
 
-* Put your **Bot token** and your **telegram chat id** in the launch function (https://www.alphr.com/find-chat-id-telegram/)
+* Put your **Bot token** and your **telegram chat id** in the script -> https://www.alphr.com/find-chat-id-telegram/
 
 * If you want to get alerts on *Twitter*, you'll need to sign up on https://developer.twitter.com/en to get a set of **API KEYS**. Then put them in the *getGas* function.
 
